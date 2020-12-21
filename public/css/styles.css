@@ -1,0 +1,15 @@
+body{
+  background-image: url("../assets/img/bc.jpg")
+  
+  }
+
+.page-section{
+    color: rgb(238, 226, 55);
+    background-image: url("../assets/img/map-image.png");
+}
+
+.carousel-inner{
+  border-radius: 30px;
+  border: 5px solid orange;
+}
+
