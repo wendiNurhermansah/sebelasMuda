@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.main');
-});
+
+
+
+Route::get('/', 'SebelasController@index');
+
+Route::get('/home', 'SebelasController@home');
+
+Route::get('/gallery', 'SebelasController@gallery');
+

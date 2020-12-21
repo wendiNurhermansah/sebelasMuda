@@ -34,23 +34,23 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                  <a class="nav-link text-warning p-3" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link js-scroll-trigger text-warning p-3" href="{{ url('/home') }}">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link text-warning p-3" href="#">Gallery</a>
+                  <a class="nav-link js-scroll-trigger text-warning p-3" href="{{ url('/gallery') }}">Gallery</a>
                   </li>
                   <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-warning p-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link js-scroll-trigger dropdown-toggle text-warning p-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Team
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item text-warning" href="#">Tim A</a>
+                      <a class="dropdown-item text-warning" href="{{ url('/tim') }}">Tim A</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item text-warning" href="#">Tim B</a>
                   </div>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link disabled text-warning p-3" href="#contact">kontak</a>
+                  <a class="nav-link js-scroll-trigger disabled text-warning p-3" href="#contact">kontak</a>
                   </li>
                   <li class="nav-item">
                     
@@ -87,5 +87,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

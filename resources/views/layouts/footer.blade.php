@@ -1,4 +1,4 @@
-<div class="bg-dark mt-4">
+<div class="bg-dark mt-4 fixed-button">
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
