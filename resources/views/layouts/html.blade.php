@@ -50,7 +50,7 @@
                   </div>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger disabled text-warning p-3" href="#contact">kontak</a>
+                  <a class="nav-link js-scroll-trigger disabled text-warning p-3" href="{{ url('/home') }}">kontak</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link js-scroll-trigger dropdown-toggle text-warning p-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -80,17 +80,17 @@
        
     </div>
 
-    <div class="row p-5 m-5">
-      <div class="col-12">
-        @include('layouts.colosul')
-      </div>
-      
-    </div>
+<div>
+   @yield('content')
+</div>
+   
+
+    
       
       
       
     
-    @include('layouts.kontak')
+   
 
     @include('layouts.footer')
       

@@ -20,3 +20,8 @@ Route::get('/home', 'SebelasController@home');
 
 Route::get('/gallery', 'SebelasController@gallery');
 
+Route::get('/timA', 'SebelasController@timA');
+
+Route::get('/timB', 'SebelasController@timB');
+
+

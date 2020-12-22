@@ -19,3 +19,29 @@ body{
   border: 5px solid orange;
 }
 
+
+.gallery{
+  color: rgb(238, 219, 51);
+  border: 5px solid orange;
+  background-color: rgb(77, 82, 78);
+  border-radius: 10em;
+
+}
+
+div .div-img{
+  border-radius: 10px;
+}
+
+.row .img:hover {
+ 
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	transform: scale(1.02);
+}
+
+.jumbotron-fluid{
+  background-color: aqua;
+  height: -30px;
+}
+.jumbotron .row{
+  padding: 10px;
+}
